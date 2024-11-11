@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Menu, ChevronRight, Edit, Trash2, Plus } from "lucide-react";
-// import "../admin-news/news.css";
+import "../admin-news/news.css";
 
 const News = () => {
   const [notices, setNotices] = useState([

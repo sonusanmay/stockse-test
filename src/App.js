@@ -2,6 +2,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import "./App.css";
 import Adminhome from "./pages/adminhome";
 import Userhome from "./pages/userhome";
+import User from "./pages/UserDashboard";
 
 
 const router = createBrowserRouter([
@@ -17,10 +18,10 @@ const router = createBrowserRouter([
     path: "userhome",
     element: <Userhome />,
   },
-  // {
-  //   path: "service",
-  //   element: <Service />,
-  // },
+  {
+    path: "user",
+    element: <User />,
+  },
   // {
   //   path: "about",
   //   element: <About />,
